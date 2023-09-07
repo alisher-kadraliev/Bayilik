@@ -1,5 +1,3 @@
-
-
 (function (window, document, $, undefined) {
     'use strict';
 
@@ -1598,18 +1596,19 @@ function closeModal(modalId) {
 function showTab(index) {
     let tabs = document.querySelectorAll('.tab-content');
     tabs.forEach((tab, i) => {
-      tab.style.display = i === index ? 'block' : 'none';
+        tab.style.display = i === index ? 'block' : 'none';
     });
 
     let tabButtons = document.querySelectorAll('.tab');
     tabButtons.forEach((button, i) => {
-      if(i === index) {
-        button.classList.add('active');
-      } else {
-        button.classList.remove('active');
-      }
+        if (i === index) {
+            button.classList.add('active');
+        } else {
+            button.classList.remove('active');
+        }
     });
-  }
+}
 
-  // Show the first tab by default
-  showTab(0);
+// Show the first tab by default
+showTab(0);
+
