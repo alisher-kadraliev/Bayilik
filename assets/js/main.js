@@ -1,3 +1,5 @@
+
+
 (function (window, document, $, undefined) {
     'use strict';
 
@@ -1590,6 +1592,7 @@ function closeModal(modalId) {
     modal.classList.remove('show-modal');
     setTimeout(() => modal.style.display = 'none', 500); // Hide after animation
 }
+
 
 //yiyet
 // JavaScript function to show tabs
