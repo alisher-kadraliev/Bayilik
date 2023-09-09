@@ -1,4 +1,6 @@
 
+import {gsap} from 'gsap';
+import imagesloaded from 'imagesloaded';
 
 (function (window, document, $, undefined) {
     'use strict';
@@ -1614,4 +1616,6 @@ function showTab(index) {
 
 // Show the first tab by default
 showTab(0);
+
+
 
