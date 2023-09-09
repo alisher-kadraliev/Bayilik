@@ -1,6 +1,4 @@
 
-import {gsap} from 'gsap';
-import imagesloaded from 'imagesloaded';
 
 (function (window, document, $, undefined) {
     'use strict';
@@ -1133,8 +1131,70 @@ import imagesloaded from 'imagesloaded';
 
 })(window, document, jQuery);
 
+// Create a GSAP timeline
+const tl = gsap.timeline();
 
+// Animate the 'blinder' elements
+tl
+    .to('.img_preloader', {
+        delay: .3,
+        x: -100,
+        onComplete: function () {
+            // Scale 'img_preloader' to 0 after the x animation
+            gsap.to('.img_preloader', {
+                delay: .3,
+                x:0,
+                onComplete: function () {
+                    // Scale 'img_preloader' to 0 after the x animation
+                    gsap.to('.img_preloader', {
+                        delay: .2,
+                        opacity:0
+                    });
+                },
+            });
+        },
+    })
 
+.to('.blinder', {
+    scaleY: 0,
+    delay:1,
+    stagger: 0.2, // Stagger the animations for each blinder
+    ease: 'power3.out',
+})
+
+.to('.loader', {
+    display: 'none', // Hide the loader once animations are complete
+});
+
+tl.play();
+
+gsap.to('.akad_str', {
+    x: 140,
+    opacity: 1,
+    delay: .3,
+    onComplete: function () {
+        // Scale 'img_preloader' to 0 after the x animation
+        gsap.to('.akad_str', {
+            delay: .3,
+            x: 0,
+           opacity:0
+        });
+    },
+})
+
+gsap.to('.akad_str1', {
+    x: 140,
+    opacity: 1,
+    delay: .3,
+    onComplete: function () {
+        // Scale 'img_preloader' to 0 after the x animation
+        gsap.to('.akad_str1', {
+            delay: .3,
+            x: 0,
+            opacity:0,
+        });
+    },
+})
 
 
 // 9.08 off canvas
@@ -1374,48 +1434,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
-
-tl.to(".lightCyan-slider", {
-    x: "-10%",
-    duration: 1,
-});
-
-tl.to(
-    ".persianGreen-slider",
-    {
-        x: "-20%",
-        duration: 1.5,
-    },
-    "-=1"
-);
-
-tl.to(
-    ".white-slider",
-    {
-        x: "-30%",
-        duration: 1.5,
-    },
-    "-=1"
-);
-
-tl.to(".hide1", {
-    x: "0%",
-    duration: 2,
-    opacity: 1,
-});
-
-tl.to(".preloader", {
-    opacity: 0,
-    duration: 2,
-
-});
-tl.to(".preloader", {
-    x: '200%',
-    duration: 2.5,
-
-});
-
 
 
 
@@ -1616,6 +1634,4 @@ function showTab(index) {
 
 // Show the first tab by default
 showTab(0);
-
-
 

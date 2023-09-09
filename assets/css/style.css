@@ -14620,6 +14620,7 @@ fieldset:disabled {
 
 .rbt-btn.rbt-switch-btn {
   overflow: hidden;
+  margin-bottom: 92px;
 }
 
 .rbt-btn.rbt-switch-btn span {
@@ -16905,6 +16906,7 @@ span.transparent-button:hover i {
 .rbt-price {
   display: flex;
   align-items: center;
+  padding-bottom: 12px;
 }
 
 .rbt-price .current-price {
@@ -16918,8 +16920,12 @@ span.transparent-button:hover i {
   text-decoration: line-through;
   opacity: 0.4;
   margin-left: 7px;
+  margin-left: 24px;
 }
 
+.rbt-price-wrapper{
+  padding-bottom: 12px;
+}
 .rbt-price.large-size .current-price {
   font-size: 35px;
 }
@@ -21713,7 +21719,11 @@ span.transparent-button:hover i {
     margin: 0 -15px;
   }
 }
-
+.what_tel{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .demo-presentation-mesonry.grid-metro3 {
     margin: 0 -15px;
@@ -21727,7 +21737,7 @@ span.transparent-button:hover i {
 }
 
 .demo-presentation-mesonry.grid-metro3 .maso-item {
-  padding: 0 60px;
+  padding: 0  37px;
   margin-top: 60px;
 }
 
@@ -21884,6 +21894,9 @@ span.transparent-button:hover i {
 }
 .add_margin{
   margin-bottom: 133px;
+}
+.add_margin_top{
+  padding-top: 200px;
 }
 .form-group input,
 .form-group textarea {
@@ -24633,9 +24646,11 @@ body.modal-open {
  Modern Course Features  
 -------------------------------*/
 .modern-course-features-box {
-  background: var(--primary-opacity);
   border-radius: 20px;
   padding: 40px;
+}
+.about_contact{
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -38119,6 +38134,7 @@ margin-right: 15px;
   fill: white;
 }
 
+
 .tr_map path.selected_place {
   cursor: pointer;
 
@@ -38137,7 +38153,6 @@ text {
 
 .info-panel-image {
   max-width: 100%;
-  margin-top: 60px;
   padding-bottom: 1.25rem;
 }
 
@@ -38414,4 +38429,53 @@ text {
 }
 .contact_first{
   margin-right: 39px;
+}
+.loader{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 999999999;
+  top: 0;
+}
+
+.blinder-container{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+
+}
+.img_preloader{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 245px;
+  z-index: 9999;
+}
+.blinder{
+  background: #f1f7ff;
+  height: 100vh;
+  flex: 1;
+  transform-origin: top;
+}
+.akad_str{
+  position: absolute;
+  left: 42%;
+  opacity: 0;
+  color: var(--color-primary);
+  font-size: 70px;
+  top: 36%;
+}
+.akad_str1{
+  position: absolute;
+  left: 42%;
+  opacity: 0;
+color: #000;
+  font-size: 70px;
+  top: 48%;
 }
