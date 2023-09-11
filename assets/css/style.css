@@ -15996,6 +15996,7 @@ span.transparent-button:hover i {
 .rbt-breadcrumb-style-3 .total-student {
   font-size: 14px;
   font-weight: 500;
+  position: relative;
 }
 
 .rbt-breadcrumb-style-3 .total-student span {
@@ -37769,7 +37770,7 @@ animation-name: dotThree;
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
   overflow: hidden;
   appearance: none;
 }
@@ -38479,3 +38480,55 @@ color: #000;
   font-size: 70px;
   top: 48%;
 }
+.add_wish{
+  position: absolute;
+  bottom: -12px;
+  z-index: 10;
+  right: -43px;
+  background: none!important;
+}
+.discount-time{
+  position: relative;
+
+}
+.tel_call{
+  padding: 8px 12px;
+  border-radius: 0px;
+  border: none;
+  background: rgb(39 37 167);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 10px;
+  overflow: hidden;
+  appearance: none;
+}
+.basvur{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#myTable  td {
+  padding: 10px;
+  text-align: left;
+  background: #fff;
+}
+
+#myTable th{
+  color:#fff;
+  background: #000;
+}
+.what_tel{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
