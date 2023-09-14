@@ -1015,7 +1015,7 @@ ol ul {
 ul.rbt-dropdown-menu li .sub-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: -71px;
   visibility: hidden;
   clip: rect(0px, 200vw, 0, 0px);
   opacity: 0;
@@ -1537,6 +1537,7 @@ ul.rbt-dropdown-menu li a {
 
 .max-width-auto {
   max-width: inherit !important;
+  
 }
 
 .edu_bounce_loop {
@@ -21476,7 +21477,9 @@ span.transparent-button:hover i {
   position: relative;
   z-index: 1;
 }
-
+.filter-text{
+  font-size: 16px;
+}
 @media only screen and (max-width: 767px) {
 
   .filter-button-default,
@@ -38532,3 +38535,13 @@ color: #000;
   flex-direction: column;
 }
 
+
+.arrow_form{
+  position: absolute;
+  right: 31%;
+  top: 40%;
+  transform: rotate(332deg);
+}
+.add_relative{
+  position: relative;
+}

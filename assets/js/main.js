@@ -1614,7 +1614,6 @@ function closeModal(modalId) {
 }
 
 
-//yiyet
 // JavaScript function to show tabs
 function showTab(index) {
     let tabs = document.querySelectorAll('.tab-content');
