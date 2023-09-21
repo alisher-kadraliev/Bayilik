@@ -763,15 +763,18 @@
             $(window).on('scroll', function () {
                 if ($('body').hasClass('rbt-header-sticky')) {
                     var stickyPlaceHolder = $('.rbt-sticky-placeholder'),
+                        progressContainer = $('.progress-container'),
                         headerConainer = $('.rbt-header-wrapper'),
                         headerConainerH = headerConainer.outerHeight(),
                         topHeaderH = $('.rbt-header-top').outerHeight() || 0,
                         targrtScroll = topHeaderH + 200;
                     if ($(window).scrollTop() > targrtScroll) {
                         headerConainer.addClass('rbt-sticky');
+                        progressContainer.addClass('progress-bar-add');
                         stickyPlaceHolder.height(headerConainerH);
                     } else {
                         headerConainer.removeClass('rbt-sticky');
+                        progressContainer.removeClass('progress-bar-add');
                         stickyPlaceHolder.height(0);
                     }
                 }
@@ -1143,28 +1146,28 @@ tl
             // Scale 'img_preloader' to 0 after the x animation
             gsap.to('.img_preloader', {
                 delay: .3,
-                x:0,
+                x: 0,
                 onComplete: function () {
                     // Scale 'img_preloader' to 0 after the x animation
                     gsap.to('.img_preloader', {
                         delay: .2,
-                        opacity:0
+                        opacity: 0
                     });
                 },
             });
         },
     })
 
-.to('.blinder', {
-    scaleY: 0,
-    delay:1,
-    stagger: 0.2, // Stagger the animations for each blinder
-    ease: 'power3.out',
-})
+    .to('.blinder', {
+        scaleY: 0,
+        delay: 1,
+        stagger: 0.2, // Stagger the animations for each blinder
+        ease: 'power3.out',
+    })
 
-.to('.loader', {
-    display: 'none', // Hide the loader once animations are complete
-});
+    .to('.loader', {
+        display: 'none', // Hide the loader once animations are complete
+    });
 
 tl.play();
 
@@ -1177,7 +1180,7 @@ gsap.to('.akad_str', {
         gsap.to('.akad_str', {
             delay: .3,
             x: 0,
-           opacity:0
+            opacity: 0
         });
     },
 })
@@ -1191,13 +1194,21 @@ gsap.to('.akad_str1', {
         gsap.to('.akad_str1', {
             delay: .3,
             x: 0,
-            opacity:0,
+            opacity: 0,
         });
     },
 })
 
 
 // 9.08 off canvas
+window.onscroll = function() { updateProgressBar() };
+
+function updateProgressBar() {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     // Get the close button

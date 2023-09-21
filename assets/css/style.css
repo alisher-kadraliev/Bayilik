@@ -3612,7 +3612,8 @@ textarea:-ms-input-placeholder {
 }
 
 .ptb--100 {
-  padding: 100px 0 !important;
+  padding-top: 200px !important;
+  padding-bottom: 100px  !important;
 }
 
 .plr--100 {
@@ -38542,6 +38543,27 @@ color: #000;
   top: 40%;
   transform: rotate(332deg);
 }
-.add_relative{
+
+.progress-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0px;
+  z-index: 992;
+  display: none;
+  transition: all .5s ease-in-out;
+  opacity: 0;
+}
+.progress-bar-add{
+  display: block;
+  transition: all .5s ease-in-out;
+  opacity: 1;
+}
+.progress-bar {
+  width: 0;
+  height: 6px;
+  background-color: var(--color-primary);
+}
+.add-relative{
   position: relative;
 }
