@@ -1199,6 +1199,83 @@ gsap.to('.akad_str1', {
     },
 })
 
+$(document).on("click", "#whatsapp-popup", function () {
+
+    $(".whatsapp-wrapper").toggleClass("hide-whatsapp show-whatsapp");
+    setTimeout(function () {
+        $('.loading-animation').hide();
+        $('.whatsapp-message-wrapper').css("display", "flex").hide().fadeIn("slow");
+    }, 8000)
+});
+
+$(document).on("click", ".close_whatsapp", function () {
+    $("#whatsapp-chat")
+    $(".whatsapp-wrapper").toggleClass("hide-whatsapp show-whatsapp");
+});
+
+
+$('.whatsapp-wrapper').delay(8000).queue(function () {
+    $(this).addClass("show-whatsapp");
+    $(this).removeClass("hide-whatsapp");
+});
+$('.whatsapp-message-wrapper').delay(6000).queue(function () {
+    $(this).addClass("di");
+    $(this).removeClass("loading-animation");
+});
+$('.loading-animation').delay(6000).queue(function () {
+    $(this).addClass("dinone");
+});
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        //---------------------Landing Page ScrollTrigger---------------------
+        function LandingPageScrollTrigger() {
+
+            gsap.to('body', { // LoadingAnimation---------------------
+                opacity: 1, duration: 1.3,
+            }) // /LoadingAnimation---------------------
+
+            $("#codeby a").mouseenter(function () { // HoverAnimation---------------------
+                gsap.to('#ImgWrapper', { backgroundColor: "#f0f0f0", })
+                gsap.to('#codeby a', { color: "#2e2e2e", })
+                gsap.to('#codeby a span', { color: "#000000", })
+            });
+            $("#codeby a").mouseout(function () {
+                gsap.to('#ImgWrapper', { backgroundColor: "#000000", })
+                gsap.to('#codeby a', { color: "#e6e6e6", })
+                gsap.to('#codeby a span', { color: "#f0f0f0", })
+            }); // /HoverAnimation---------------------
+
+            let LandingPageScrollTrigger = gsap.timeline({
+                scrollTrigger: {
+                    trigger: "#ImgWrapper",
+                    start: "0% 0%",
+                    end: "100% 0%",
+                    pin: "#ImgWrapper",
+                    scrub: 2.2,
+                }
+            })
+            LandingPageScrollTrigger
+                .to('#ImgWrapper #img7', { transform: 'translateZ(4500px)', }, 0)
+                .to('#ImgWrapper #img6', { transform: 'translateZ(3700px)', }, 0)
+                .to('#ImgWrapper #img5', { transform: 'translateZ(3100px)', }, 0)
+                .to('#ImgWrapper #img4', { transform: 'translateZ(2800px)', }, 0)
+                .to('#ImgWrapper #img3', { transform: 'translateZ(2600px)', }, 0)
+                .to('#ImgWrapper #img2', { transform: 'translateZ(2400px)', }, 0)
+                .to('#ImgWrapper #img1', { transform: 'translateZ(2200px)', }, 0)
+                .from('#codeby a', { y: 130, opacity: 0 }, 0.31)
+        }
+
+        window.onload = () => {
+            LandingPageScrollTrigger()
+        }
+
+// Get references to the elements
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
+
+
+
 
 // 9.08 off canvas
 window.onscroll = function() { updateProgressBar() };
@@ -1644,4 +1721,29 @@ function showTab(index) {
 
 // Show the first tab by default
 showTab(0);
+
+
+
+
+
+
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'tr', includedLanguages: 'ar,en,tr,fr,de,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+}
+
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Getting the close button and the card
+//     const closeButton = document.querySelector('.close-card-info');
+//     const cardInfo = document.querySelector('.card-info.bounce-slide');
+
+//     // Adding click event to the close button
+//     closeButton.addEventListener('click', function () {
+//         cardInfo.style.display = 'none';
+//     });
+// });
+
+
+
 

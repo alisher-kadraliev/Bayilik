@@ -17,6 +17,7 @@
     "@splinetool/runtime": "^0.9.436",
     "gsap": "^3.12.2",
     "imagesloaded": "^5.0.0",
+    "lozad": "^1.16.0",
     "normalize.css": "^8.0.1",
     "three": "^0.156.0"
   }
