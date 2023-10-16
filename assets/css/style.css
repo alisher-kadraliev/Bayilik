@@ -4,14 +4,14 @@
 :root {
   --color-primary: #ef0107;
   /* #2f57ef */
-    --color-text: navy;
-    --color-bg: papayawhip;
-    --color-bg-accent: #f2f3fd;
-    --size: clamp(10rem, 1rem + 40vmin, 30rem);
-    --gap: calc(var(--size) / 14);
-    --duration: 60s;
-    --scroll-start: 0;
-    --scroll-end: calc(-100% - var(--gap));
+  --color-text: navy;
+  --color-bg: papayawhip;
+  --color-bg-accent: #f2f3fd;
+  --size: clamp(10rem, 1rem + 40vmin, 30rem);
+  --gap: calc(var(--size) / 14);
+  --duration: 60s;
+  --scroll-start: 0;
+  --scroll-end: calc(-100% - var(--gap));
   --color-secondary: #192335;
   /* #b966e7 */
   --color-coral: #e9967a;
@@ -513,7 +513,7 @@ body {
   font-weight: 400;
   position: relative;
   overflow-y: scroll;
-  scroll-behavior: smooth!important;
+  scroll-behavior: smooth !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1208,6 +1208,7 @@ ul.rbt-dropdown-menu li a {
 .bg-color-primary {
   background-color: var(--color-primary) !important;
 }
+
 .bg-color-primary1 {
   background-color: black !important;
 }
@@ -1537,7 +1538,7 @@ ul.rbt-dropdown-menu li a {
 
 .max-width-auto {
   max-width: inherit !important;
-  
+
 }
 
 .edu_bounce_loop {
@@ -3613,7 +3614,7 @@ textarea:-ms-input-placeholder {
 
 .ptb--100 {
   padding-top: 200px !important;
-  padding-bottom: 100px  !important;
+  padding-bottom: 100px !important;
 }
 
 .plr--100 {
@@ -10031,7 +10032,7 @@ Primary style
 .cd-headline.type .cd-words-wrapper.waiting::after {
   -webkit-animation: cd-pulse 1s infinite;
   -moz-animation: cd-pulse 1s infinite;
-  animation: cd-pulse 1s infinite!important;
+  animation: cd-pulse 1s infinite !important;
 }
 
 .cd-headline.type .cd-words-wrapper.selected {
@@ -10408,7 +10409,7 @@ Primary style
   opacity: 1;
   -webkit-animation: slide-in 0.6s;
   -moz-animation: slide-in 0.6s;
-  animation: slide-in 0.6s!important;
+  animation: slide-in 0.6s !important;
 }
 
 .cd-headline.slide b.is-hidden {
@@ -15772,12 +15773,14 @@ span.transparent-button:hover i {
   padding: 44px 140px 50px;
   background: #fff;
   border-radius: 4px 4px 0 0;
-  margin: 200px auto 0 ;
+  margin: 200px auto 0;
 }
-.add_padding{
+
+.add_padding {
   padding-top: 203px;
   padding-bottom: 119px;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rbt-overlay-page-wrapper .breadcrumb-image-container {
     padding: 44px 30px 50px;
@@ -15940,8 +15943,8 @@ span.transparent-button:hover i {
   overflow: hidden;
   display: flex;
   align-items: center;
- padding-bottom: 80px;
- padding-top: 251px;
+  padding-bottom: 80px;
+  padding-top: 251px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -16926,9 +16929,10 @@ span.transparent-button:hover i {
   margin-left: 24px;
 }
 
-.rbt-price-wrapper{
+.rbt-price-wrapper {
   padding-bottom: 12px;
 }
+
 .rbt-price.large-size .current-price {
   font-size: 35px;
 }
@@ -17100,7 +17104,7 @@ span.transparent-button:hover i {
 .rbt-service.rbt-service-2 .inner .content p {
   font-size: 24px;
   margin-bottom: 12px;
-  color:black;
+  color: black;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -17512,11 +17516,13 @@ span.transparent-button:hover i {
     margin: 0 16px !important;
   }
 }
-.give_top{
+
+.give_top {
   margin-bottom: 0;
   padding-bottom: 15px;
   margin-top: 40px;
 }
+
 .rbt-swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: transparent;
   box-shadow: inset 0 0 0 1px var(--color-primary);
@@ -21478,9 +21484,11 @@ span.transparent-button:hover i {
   position: relative;
   z-index: 1;
 }
-.filter-text{
+
+.filter-text {
   font-size: 16px;
 }
+
 @media only screen and (max-width: 767px) {
 
   .filter-button-default,
@@ -21724,11 +21732,13 @@ span.transparent-button:hover i {
     margin: 0 -15px;
   }
 }
-.what_tel{
+
+.what_tel {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .demo-presentation-mesonry.grid-metro3 {
     margin: 0 -15px;
@@ -21742,7 +21752,7 @@ span.transparent-button:hover i {
 }
 
 .demo-presentation-mesonry.grid-metro3 .maso-item {
-  padding: 0  37px;
+  padding: 0 37px;
   margin-top: 60px;
 }
 
@@ -21894,15 +21904,18 @@ span.transparent-button:hover i {
   line-height: 28px;
 }
 
-.add_m_contact{
+.add_m_contact {
   margin-bottom: 30px;
 }
-.add_margin{
+
+.add_margin {
   margin-bottom: 133px;
 }
-.add_margin_top{
+
+.add_margin_top {
   padding-top: 200px;
 }
+
 .form-group input,
 .form-group textarea {
   border: 0;
@@ -24654,9 +24667,8 @@ body.modal-open {
   border-radius: 20px;
   padding: 40px;
 }
-.about_contact{
 
-}
+.about_contact {}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .modern-course-features-box {
@@ -24757,10 +24769,12 @@ body.modal-open {
 .modern-course-features-box .inner ul li {
   color: var(--color-white-off);
 }
-.add_m_hedef{
+
+.add_m_hedef {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .modern-course-features-box .inner ul li i {
   background: var(--primary-opacity);
   color: white;
@@ -30656,9 +30670,11 @@ Course Sidebar
   padding-top: 80px;
   padding-bottom: 28px;
 }
-.mt-40{
+
+.mt-40 {
   margin-top: 102px;
 }
+
 @media only screen and (max-width: 767px) {
   .footer-style-1 .footer-top {
     padding-top: 60px;
@@ -34222,10 +34238,12 @@ td {
 .white-slider {
   background: #fff;
 }
-.rbt-section-gapBottom1{
+
+.rbt-section-gapBottom1 {
   padding-top: 50px;
   padding-bottom: 70px;
 }
+
 .hide1 {
   opacity: 0;
   color: var(--color-primary);
@@ -34249,8 +34267,8 @@ td {
   }
 }
 
-.bg_primary_arrow{
-  background-color: #000!important;
+.bg_primary_arrow {
+  background-color: #000 !important;
 }
 
 .sidebar-page-container .sidebar .sidebar-post .post-inner .post {
@@ -35538,9 +35556,11 @@ a.slide_btn {
   background: #fff !important;
   color: #000 !important;
 }
+
 .nasil_btn_white span {
   color: #000 !important;
 }
+
 body.no-scroll {
   overflow: hidden;
 }
@@ -35565,15 +35585,15 @@ body.no-scroll {
 }
 
 .popup-close {
-position: absolute;
-    top: -8px;
-    right: 49px;
-    font-size: 79px;
-    color: white;
-    background: none;
-    border: none;
-    cursor: pointer;
-    z-index: 1000;
+  position: absolute;
+  top: -8px;
+  right: 49px;
+  font-size: 79px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
 }
 
 .popup-cta {
@@ -35584,10 +35604,12 @@ position: absolute;
   border-radius: 5px;
   cursor: pointer;
 }
-.rbt-section-gapBottom_1{
+
+.rbt-section-gapBottom_1 {
   margin-bottom: 80px;
 }
-.add-m{
+
+.add-m {
   margin-top: 70px;
   margin-bottom: 60px;
 }
@@ -35612,13 +35634,11 @@ position: absolute;
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
-  mask-image: linear-gradient(
-    var(--mask-direction, to right),
-    hsl(0 0% 0% / 0),
-    hsl(0 0% 0% / 1) 20%,
-    hsl(0 0% 0% / 1) 80%,
-    hsl(0 0% 0% / 0)
-  );
+  mask-image: linear-gradient(var(--mask-direction, to right),
+      hsl(0 0% 0% / 0),
+      hsl(0 0% 0% / 1) 20%,
+      hsl(0 0% 0% / 1) 80%,
+      hsl(0 0% 0% / 0));
 }
 
 .marquee__group {
@@ -35659,6 +35679,7 @@ position: absolute;
   from {
     transform: translateX(var(--scroll-start));
   }
+
   to {
     transform: translateX(var(--scroll-end));
   }
@@ -35668,6 +35689,7 @@ position: absolute;
   from {
     transform: translateY(var(--scroll-start));
   }
+
   to {
     transform: translateY(var(--scroll-end));
   }
@@ -35766,7 +35788,8 @@ position: absolute;
 
 /* you can choose any color you want. don't be afraid to experiment  */
 
-.input_bayi, button {
+.input_bayi,
+button {
   width: 100%;
   height: 40px;
   position: relative;
@@ -35784,7 +35807,8 @@ position: absolute;
   transform: skewY(-14deg);
 }
 
-.form_bayi .wrapper_bayi li, button {
+.form_bayi .wrapper_bayi li,
+button {
   position: relative;
   list-style: none;
   width: 200px;
@@ -35793,7 +35817,8 @@ position: absolute;
   color: white;
 }
 
-.form_bayi .wrapper_bayi li::before,.form_bayi button::before {
+.form_bayi .wrapper_bayi li::before,
+.form_bayi button::before {
   position: absolute;
   content: '';
   background: #6d74e3;
@@ -35806,7 +35831,8 @@ position: absolute;
   transition: 0.3s;
 }
 
-.form_bayi .wrapper_bayi li::after,.form_bayi button::after {
+.form_bayi .wrapper_bayi li::after,
+.form_bayi button::after {
   position: absolute;
   content: '';
   background: #6d74e3;
@@ -35819,18 +35845,23 @@ position: absolute;
   transition: 0.3s;
 }
 
-.form_bayi .wrapper_bayi li:nth-child(1)::after, .wrapper li:nth-child(1)::before {
+.form_bayi .wrapper_bayi li:nth-child(1)::after,
+.wrapper li:nth-child(1)::before {
   background-color: #d8daf7;
 }
 
-.form_bayi .wrapper_bayi li:nth-child(2)::after, .wrapper li:nth-child(2)::before {
+.form_bayi .wrapper_bayi li:nth-child(2)::after,
+.wrapper li:nth-child(2)::before {
   background-color: #c2c5f3;
 }
 
-.form_bayi .wrapper_bayi li:nth-child(3)::after, .wrapper li:nth-child(3)::before {
+.form_bayi .wrapper_bayi li:nth-child(3)::after,
+.wrapper li:nth-child(3)::before {
   background-color: #989deb;
 }
-.form_bayi .wrapper_bayi li:nth-child(4)::after, .wrapper li:nth-child(4)::before {
+
+.form_bayi .wrapper_bayi li:nth-child(4)::after,
+.wrapper li:nth-child(4)::before {
   background-color: #888fff;
 }
 
@@ -35838,7 +35869,7 @@ position: absolute;
   outline: none;
   border: none;
   color: black;
-background: #575cb5;
+  background: #575cb5;
 }
 
 .form_bayi li .input_bayi::placeholder {
@@ -35856,6 +35887,7 @@ background: #575cb5;
 .form_bayi li:nth-child(3) .input_bayi {
   background: #b2b7ff;
 }
+
 .form_bayi li:nth-child(4) .input_bayi {
   background: #888fff;
 }
@@ -35875,16 +35907,20 @@ background: #575cb5;
   outline: none;
   border: 3.5px solid #b2b7ff;
 }
+
 .form_bayi li:nth-child(4) .input_bayi:focus {
   outline: none;
   border: 3.5px solid #888fff;
 }
 
-.form_bayi .wrapper_bayi li:hover,.form_bayi button:hover {
+.form_bayi .wrapper_bayi li:hover,
+.form_bayi button:hover {
   transform: translateX(-20px);
 }
 
-.form_bayi button:hover, button:hover::before, button:hover::after {
+.form_bayi button:hover,
+button:hover::before,
+button:hover::after {
   background: #575cb5;
 }
 
@@ -35903,7 +35939,8 @@ background: #575cb5;
   padding: 10px;
   cursor: pointer;
 }
-.bg_red{
+
+.bg_red {
   background: var(--gradient-7) !important;
 }
 
@@ -35924,6 +35961,7 @@ background: #575cb5;
   background-color: #000000;
   overflow: hidden;
 }
+
 #container netflixintro {
   display: block;
   position: relative;
@@ -35938,6 +35976,7 @@ background: #575cb5;
   background-size: 4000px;
   background-position: -1950px 0;
 }
+
 #container netflixintro::before {
   content: "";
   position: absolute;
@@ -35953,9 +35992,11 @@ background: #575cb5;
   background-size: 4000px;
   background-position: -1950px 0;
 }
+
 #container netflixintro[letter=N] {
   transform-origin: 30% center;
 }
+
 #container netflixintro[letter=N] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -35968,16 +36009,19 @@ background: #575cb5;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=N] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
 }
+
 #container netflixintro[letter=N] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=N] .helper-3 {
   width: 19%;
   height: 150%;
@@ -35987,12 +36031,14 @@ background: #575cb5;
   box-shadow: 0px 0px 35px -12px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
+
 #container netflixintro[letter=N] .helper-3 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
 }
+
 #container netflixintro[letter=N] .helper-2 {
   width: 19.5%;
   height: 100%;
@@ -36001,15 +36047,18 @@ background: #575cb5;
   transform: rotate(180deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=N] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
+
 #container netflixintro[letter=E] {
   transform-origin: 30% center;
 }
+
 #container netflixintro[letter=E] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -36022,16 +36071,19 @@ background: #575cb5;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=E] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
 }
+
 #container netflixintro[letter=E] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=E] .helper-2 {
   width: 17.5%;
   height: 50%;
@@ -36040,12 +36092,14 @@ background: #575cb5;
   transform: rotate(270deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=E] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
 }
+
 #container netflixintro[letter=E] .helper-3 {
   width: 17%;
   height: 39%;
@@ -36059,12 +36113,14 @@ background: #575cb5;
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
+
 #container netflixintro[letter=E] .helper-3 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
 }
+
 #container netflixintro[letter=E] .helper-4 {
   width: 17.5%;
   height: 50%;
@@ -36073,6 +36129,7 @@ background: #575cb5;
   transform: rotate(270deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=E] .helper-4 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
@@ -36080,9 +36137,11 @@ background: #575cb5;
   animation-delay: 0.4s;
   animation-delay: 0.5s;
 }
+
 #container netflixintro[letter=T] {
   transform-origin: center center;
 }
+
 #container netflixintro[letter=T] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -36095,16 +36154,19 @@ background: #575cb5;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=T] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
+
 #container netflixintro[letter=T] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=T] .helper-2 {
   width: 17.5%;
   height: 54%;
@@ -36113,15 +36175,18 @@ background: #575cb5;
   transform: rotate(270deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=T] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
+
 #container netflixintro[letter=F] {
   transform-origin: 30% center;
 }
+
 #container netflixintro[letter=F] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -36134,16 +36199,19 @@ background: #575cb5;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=F] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
 }
+
 #container netflixintro[letter=F] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=F] .helper-2 {
   width: 17.5%;
   height: 50%;
@@ -36152,12 +36220,14 @@ background: #575cb5;
   transform: rotate(270deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=F] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.7s;
 }
+
 #container netflixintro[letter=F] .helper-3 {
   width: 17%;
   height: 39%;
@@ -36171,15 +36241,18 @@ background: #575cb5;
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
+
 #container netflixintro[letter=F] .helper-3 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
+
 #container netflixintro[letter=L] {
   transform-origin: 30% center;
 }
+
 #container netflixintro[letter=L] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -36192,16 +36265,19 @@ background: #575cb5;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=L] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
 }
+
 #container netflixintro[letter=L] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=L] .helper-2 {
   width: 17.5%;
   height: 50%;
@@ -36210,15 +36286,18 @@ background: #575cb5;
   transform: rotate(270deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=L] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.4s;
 }
+
 #container netflixintro[letter=I] {
   transform-origin: center center;
 }
+
 #container netflixintro[letter=I] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -36231,19 +36310,23 @@ background: #575cb5;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=I] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
+
 #container netflixintro[letter=I] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=X] {
   transform-origin: center center;
 }
+
 #container netflixintro[letter=X] .helper-1 {
   width: 19%;
   height: 150%;
@@ -36255,16 +36338,19 @@ background: #575cb5;
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=X] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
 }
+
 #container netflixintro[letter=X] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=X] .helper-2 {
   width: 19%;
   height: 150%;
@@ -36273,15 +36359,18 @@ background: #575cb5;
   transform: rotate(19.5deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=X] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
+
 #container netflixintro [class*=helper-] {
   position: absolute;
 }
+
 #container netflixintro [class*=helper-] .effect-brush {
   position: absolute;
   width: 100%;
@@ -36289,6 +36378,7 @@ background: #575cb5;
   top: 0;
   overflow: hidden;
 }
+
 #container netflixintro [class*=helper-] .effect-brush::before {
   display: block;
   content: "";
@@ -36298,167 +36388,200 @@ background: #575cb5;
   height: 70%;
   box-shadow: 0px 0px 29px 24px #e40913;
 }
+
 #container netflixintro [class*=helper-] .effect-brush [class*=fur-] {
   display: block;
   position: absolute;
   bottom: 10%;
   height: 30%;
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-1 {
   left: 0%;
   width: 3.8%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 15%, rgba(0, 0, 0, 0) 81%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-2 {
   left: 3.8%;
   width: 2.8%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 10%, rgba(0, 0, 0, 0) 62%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-3 {
   left: 6.6%;
   width: 4.8%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 37%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-4 {
   left: 11.4%;
   width: 4%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 23%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-5 {
   left: 15.4%;
   width: 4%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 15%, rgba(0, 0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-6 {
   left: 19.4%;
   width: 2.5%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 27%, rgba(0, 0, 0, 0) 89%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-7 {
   left: 21.9%;
   width: 4%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 20%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-8 {
   left: 25.9%;
   width: 2%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 30%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-9 {
   left: 27.9%;
   width: 4%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 35%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-10 {
   left: 31.9%;
   width: 3.5%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 39%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-11 {
   left: 35.4%;
   width: 2%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 34%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-12 {
   left: 37.4%;
   width: 2.6%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 22%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-13 {
   left: 40%;
   width: 6%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 47%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-14 {
   left: 46%;
   width: 2%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 36%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-15 {
   left: 48%;
   width: 5.5%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 29%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-16 {
   left: 53.5%;
   width: 3%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 39%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-17 {
   left: 56.5%;
   width: 4.1%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 45%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-18 {
   left: 60.6%;
   width: 2.4%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 34%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-19 {
   left: 63%;
   width: 4%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 47%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-20 {
   left: 67%;
   width: 1.5%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 27%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-21 {
   left: 68.5%;
   width: 2.8%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 37%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-22 {
   left: 71.3%;
   width: 2.3%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 9%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-23 {
   left: 73.6%;
   width: 2.2%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 28%, rgba(0, 0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-24 {
   left: 75.8%;
   width: 1%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 37%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-25 {
   left: 76.8%;
   width: 2.1%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 28%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-26 {
   left: 78.9%;
   width: 4.1%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 34%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-27 {
   left: 83%;
   width: 2.5%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 21%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-28 {
   left: 85.5%;
   width: 4.5%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 39%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-29 {
   left: 90%;
   width: 2.8%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 30%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-30 {
   left: 92.8%;
   width: 3.5%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 19%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-brush .fur-31 {
   left: 96.3%;
   width: 3.7%;
   background: linear-gradient(to bottom, #e40913 0%, #e40913 37%, rgba(0, 0, 0, 0) 100%);
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres {
   position: absolute;
   width: 100%;
@@ -36469,6 +36592,7 @@ background: #575cb5;
   animation-delay: 1.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres [class*=lamp-] {
   position: absolute;
   display: block;
@@ -36476,6 +36600,7 @@ background: #575cb5;
   box-shadow: 0px 0px 10px 0px rgba(228, 9, 19, 0.75);
   background: var(--color);
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres [class*=lamp-]::before {
   position: absolute;
   content: " ";
@@ -36485,6 +36610,7 @@ background: #575cb5;
   background: var(--color);
   box-shadow: 0px 0px 10px 0px rgba(228, 9, 19, 0.75);
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-1 {
   --color: #ff0100;
   z: 6;
@@ -36492,280 +36618,336 @@ background: #575cb5;
   width: 1%;
   animation-delay: 1.77s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-1::before {
   left: 190%;
   animation-delay: 0.54s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-2 {
   --color: #ffde01;
   left: 2.2%;
   width: 1.4%;
   animation-delay: 1.73s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-2::before {
   left: 37%;
   animation-delay: 1.21s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-3 {
   --color: #ff00cc;
   left: 5.8%;
   width: 2.1%;
   animation-delay: 1.22s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-3::before {
   left: 117%;
   animation-delay: 0.22s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-4 {
   --color: #04fd8f;
   left: 10.1%;
   width: 2%;
   animation-delay: 1.9s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-4::before {
   left: 29%;
   animation-delay: 1.56s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-5 {
   --color: #ff0100;
   left: 12.9%;
   width: 1.4%;
   animation-delay: 1.56s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-5::before {
   left: 15%;
   animation-delay: 0.63s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-6 {
   --color: #ff9600;
   left: 15.3%;
   width: 2.8%;
   animation-delay: 1.98s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-6::before {
   left: 121%;
   animation-delay: 0.49s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-7 {
   --color: #0084ff;
   left: 21.2%;
   width: 2.5%;
   animation-delay: 1.15s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-7::before {
   left: 92%;
   animation-delay: 0.01s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-8 {
   --color: #f84006;
   left: 25%;
   width: 2.5%;
   animation-delay: 1.07s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-8::before {
   left: 156%;
   animation-delay: 0.73s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-9 {
   --color: #ffc601;
   left: 30.5%;
   width: 3%;
   animation-delay: 1.2s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-9::before {
   left: 50%;
   animation-delay: 0.69s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-10 {
   --color: #ff4800;
   left: 36.3%;
   width: 3%;
   animation-delay: 0.63s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-10::before {
   left: 37%;
   animation-delay: 1.15s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-11 {
   --color: #fd0100;
   left: 41%;
   width: 2.2%;
   animation-delay: 0.71s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-11::before {
   left: 140%;
   animation-delay: 1.59s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-12 {
   --color: #01ffff;
   left: 44.2%;
   width: 2.6%;
   animation-delay: 1.27s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-12::before {
   left: 136%;
   animation-delay: 1.95s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-13 {
   --color: #ffc601;
   left: 51.7%;
   width: 0.5%;
   animation-delay: 1.99s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-13::before {
   left: 144%;
   animation-delay: 1.33s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-14 {
   --color: #ffc601;
   left: 52.1%;
   width: 1.8%;
   animation-delay: 0.76s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-14::before {
   left: 175%;
   animation-delay: 0.47s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-15 {
   --color: #0078fe;
   left: 53.8%;
   width: 2.3%;
   animation-delay: 0.46s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-15::before {
   left: 144%;
   animation-delay: 0.5s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-16 {
   --color: #0080ff;
   left: 57.2%;
   width: 2%;
   animation-delay: 1.39s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-16::before {
   left: 70%;
   animation-delay: 1.27s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-17 {
   --color: #ffae01;
   left: 62.3%;
   width: 2.9%;
   animation-delay: 1.32s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-17::before {
   left: 172%;
   animation-delay: 0.95s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-18 {
   --color: #ff00bf;
   left: 65.8%;
   width: 1.7%;
   animation-delay: 1.15s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-18::before {
   left: 157%;
   animation-delay: 0.61s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-19 {
   --color: #a601f4;
   left: 72.8%;
   width: 0.8%;
   animation-delay: 1.24s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-19::before {
   left: 91%;
   animation-delay: 0.56s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-20 {
   --color: #f30b34;
   left: 74.3%;
   width: 2%;
   animation-delay: 0.55s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-20::before {
   left: 96%;
   animation-delay: 0.6s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-21 {
   --color: #ff00bf;
   left: 79.8%;
   width: 2%;
   animation-delay: 0.66s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-21::before {
   left: 200%;
   animation-delay: 0.78s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-22 {
   --color: #04fd8f;
   left: 78.2%;
   width: 2%;
   animation-delay: 1.27s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-22::before {
   left: 181%;
   animation-delay: 1.23s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-23 {
   --color: #01ffff;
   left: 78.5%;
   width: 2%;
   animation-delay: 0.37s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-23::before {
   left: 40%;
   animation-delay: 0.3s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-24 {
   --color: #a201ff;
   left: 85.3%;
   width: 1.1%;
   animation-delay: 1.35s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-24::before {
   left: 88%;
   animation-delay: 1.28s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-25 {
   --color: #ec0014;
   left: 86.9%;
   width: 1.1%;
   animation-delay: 0.55s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-25::before {
   left: 117%;
   animation-delay: 1.46s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-26 {
   --color: #0078fe;
   left: 88.8%;
   width: 2%;
   animation-delay: 0.31s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-26::before {
   left: 18%;
   animation-delay: 1.95s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-27 {
   --color: #ff0036;
   left: 92.4%;
   width: 2.4%;
   animation-delay: 0.39s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-27::before {
   left: 80%;
   animation-delay: 0.04s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-28 {
   --color: #06f98c;
   left: 96.2%;
   width: 2.1%;
   animation-delay: 0.48s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-28::before {
   left: 138%;
   animation-delay: 1.58s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-1,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-3,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-5,
@@ -36784,6 +36966,7 @@ background: #575cb5;
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-1::before,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-3::before,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-5::before,
@@ -36801,6 +36984,7 @@ background: #575cb5;
   animation-name: lumieres-moving-left;
   animation-duration: 5.5s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-2,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-4,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-6,
@@ -36819,6 +37003,7 @@ background: #575cb5;
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-2::before,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-4::before,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-6::before,
@@ -36841,70 +37026,88 @@ background: #575cb5;
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-100%);
   }
 }
+
 @keyframes fading-out {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 @keyframes lumieres-moving-right {
   0% {
     transform: translate(0);
   }
+
   40% {
     transform: translate(-10px) scaleX(1);
   }
+
   50% {
     transform: translate(-60px);
   }
+
   100% {
     transform: translate(-120px) scaleX(3);
   }
 }
+
 @keyframes lumieres-moving-left {
   0% {
     transform: translate(0);
   }
+
   40% {
     transform: translate(10px) scaleX(1);
   }
+
   50% {
     transform: translate(60px);
   }
+
   100% {
     transform: translate(120px) scaleX(3);
   }
 }
+
 @keyframes zoom-in {
   0% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(15);
   }
 }
+
 @keyframes showing-lumieres {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fading-lumieres-box {
   0% {
     background-color: rgba(228, 9, 19, 0.5);
   }
+
   100% {
     background-color: rgba(228, 9, 19, 0);
   }
 }
+
 #preloader {
   position: fixed;
   left: 0;
@@ -37010,29 +37213,32 @@ background: #575cb5;
 
 .header {
   display: block;
-    z-index: -4;
-  text-align:center;
-  background: linear-gradient(270deg, var(--color-secondary) 0%, var(--color-primary) 100%) !important;;
+  z-index: -4;
+  text-align: center;
+  background: linear-gradient(270deg, var(--color-secondary) 0%, var(--color-primary) 100%) !important;
+  ;
 }
-.header::after{
+
+.header::after {
   background: linear-gradient(white 0%, rgba(255, 255, 255, 0.1) 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
 }
 
 .inner-header {
   height: 65vh;
-  width:100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.flex { /*Flexbox for containers*/
+.flex {
+  /*Flexbox for containers*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37040,12 +37246,13 @@ background: #575cb5;
 }
 
 .waves {
-  position:relative;
+  position: relative;
   width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:150px;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
 }
 
 /* .content {
@@ -37057,51 +37264,62 @@ background: #575cb5;
 
 /* Animation */
 
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
-.parallax > use:nth-child(1) {
+
+.parallax>use:nth-child(1) {
   animation-delay: -2s;
   animation-duration: 7s;
 }
-.parallax > use:nth-child(2) {
+
+.parallax>use:nth-child(2) {
   animation-delay: -3s;
   animation-duration: 10s;
 }
-.parallax > use:nth-child(3) {
+
+.parallax>use:nth-child(3) {
   animation-delay: -4s;
   animation-duration: 13s;
 }
-.parallax > use:nth-child(4) {
+
+.parallax>use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
 @keyframes move-forever {
   0% {
-   transform: translate3d(-90px,0,0);
+    transform: translate3d(-90px, 0, 0);
   }
-  100% { 
-    transform: translate3d(85px,0,0);
+
+  100% {
+    transform: translate3d(85px, 0, 0);
   }
 }
+
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
-    height:40px;
-    min-height:40px;
+    height: 40px;
+    min-height: 40px;
   }
+
   .content {
-    height:30vh;
+    height: 30vh;
   }
+
   h1 {
-    font-size:24px;
+    font-size: 24px;
   }
 }
-.add_m_top{
+
+.add_m_top {
   margin-top: 100px;
   padding-bottom: 63px;
 }
-.header_wrap{
+
+.header_wrap {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -37111,6 +37329,7 @@ background: #575cb5;
   width: 100%;
   overflow: hidden;
 }
+
 .add_center {
   width: 100%;
   height: 226px;
@@ -37124,10 +37343,12 @@ background: #575cb5;
   justify-content: center;
   align-content: center;
 }
-.course_1 .form-group input{
-  border-bottom: 2px solid var(--color-border)!important;
+
+.course_1 .form-group input {
+  border-bottom: 2px solid var(--color-border) !important;
 }
-.course_1 .form-group{
+
+.course_1 .form-group {
   margin-bottom: 30px;
 }
 
@@ -37147,6 +37368,7 @@ background: #575cb5;
 .header-middle {
   display: none;
 }
+
 @media (min-width: 1200px) {
   .header-middle {
     display: block;
@@ -37161,6 +37383,7 @@ background: #575cb5;
 .header-nav {
   display: none;
 }
+
 @media (min-width: 1200px) {
   .header-nav {
     display: block;
@@ -37176,11 +37399,13 @@ background: #575cb5;
   font-weight: 500;
   display: inline-block;
 }
+
 .header-link--button {
   background-color: #000;
   color: #fff;
   padding: 0.5rem 1.25rem;
 }
+
 .header-menu-button {
   margin-left: 0.75rem;
   border: 0;
@@ -37191,7 +37416,9 @@ background: #575cb5;
   padding-right: 30px;
   font-weight: 500;
 }
-.header-menu-button:after, .header-menu-button:before {
+
+.header-menu-button:after,
+.header-menu-button:before {
   content: "";
   display: block;
   position: absolute;
@@ -37201,6 +37428,7 @@ background: #575cb5;
   right: 0;
   top: 8px;
 }
+
 .header-menu-button:after {
   top: 16px;
   width: 12px;
@@ -37213,6 +37441,7 @@ background: #575cb5;
   display: flex;
   justify-content: center;
 }
+
 .page-title h1 {
   font-size: 1.75rem;
   font-weight: 700;
@@ -37220,6 +37449,7 @@ background: #575cb5;
   text-align: center;
   position: relative;
 }
+
 .page-title h1:after {
   content: "";
   display: block;
@@ -37229,7 +37459,8 @@ background: #575cb5;
   height: 2px;
   background-color: currentcolor;
 }
-.news_title{
+
+.news_title {
   padding-top: 130px;
   text-align: center;
   padding-bottom: 88px;
@@ -37247,28 +37478,31 @@ background: #575cb5;
   padding: 0 1.5rem;
   grid-column: span 5;
 }
+
 @media (min-width: 1200px) {
   .magazine-column {
     grid-column: span 1;
     border-right: 1px solid #ccc;
   }
+
   .magazine-column:last-child {
     border-right: none;
   }
 }
+
 @media (min-width: 1200px) {
   .magazine-column:nth-child(2) {
     grid-column: span 2;
   }
 }
 
-.article + .article {
+.article+.article {
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: 1px solid #ccc;
 }
 
-.article-img + * {
+.article-img+* {
   margin-top: 1rem;
 }
 
@@ -37282,22 +37516,28 @@ background: #575cb5;
   line-height: 1.25;
   color: #000;
 }
+
 .article-title--large {
   font-size: 2rem;
 }
-.article-title--large + * {
+
+.article-title--large+* {
   margin-top: 1.5rem;
 }
+
 .article-title--medium {
   font-size: 1.5rem;
 }
-.article-title--medium + * {
+
+.article-title--medium+* {
   margin-top: 0.75rem;
 }
+
 .article-title--small {
   font-size: 1.25rem;
 }
-.article-title--small + * {
+
+.article-title--small+* {
   margin-top: 0.75rem;
 }
 
@@ -37308,9 +37548,11 @@ background: #575cb5;
 .mark {
   background-color: #fabea1;
 }
+
 .mark--secondary {
   background-color: #c2dddf;
 }
+
 .mark--tertiary {
   background-color: #f8e177;
 }
@@ -37320,8 +37562,9 @@ background: #575cb5;
   font-size: 1.125rem;
   line-height: 1.4;
 }
-.article-excerpt p + p,
-.article-creditation p + p {
+
+.article-excerpt p+p,
+.article-creditation p+p {
   margin-top: 1.5rem;
 }
 
@@ -37339,19 +37582,23 @@ background: #575cb5;
   overflow: hidden;
   background-blend-mode: multiply;
 }
-.article-author-img + .article-author-info {
+
+.article-author-img+.article-author-info {
   margin-left: 0.5rem;
 }
 
 .article-author-info {
   line-height: 1.375;
 }
+
 .article-author-info dl {
   margin-top: 0.25em;
 }
+
 .article-author-info dt {
   font-weight: 600;
 }
+
 .article-author-info dd {
   font-size: 0.875em;
 }
@@ -37361,6 +37608,7 @@ background: #575cb5;
   margin-bottom: 1rem;
   display: block;
 }
+
 .article-category svg {
   max-width: 1.5rem;
   margin-right: 0.5rem;
@@ -37382,6 +37630,7 @@ background: #575cb5;
   background-color: #000;
   margin-right: 0.5rem;
 }
+
 .podcast-play-button svg {
   max-width: 1rem;
   max-height: 1rem;
@@ -37405,27 +37654,28 @@ background: #575cb5;
 
 
 .text-box {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-box h1 {
-	font-size: 6vw;
-	font-weight: 900;
-	background-color: #000;
-	color: #fff;
-	display: block;
-	padding: .5em;
+  font-size: 6vw;
+  font-weight: 900;
+  background-color: #000;
+  color: #fff;
+  display: block;
+  padding: .5em;
 }
 
 .text-box h1:nth-child(2) {
-	position: absolute;
-	background-color: #fff;
-	color: #000;
-	clip-path: inset(-1% -1% 47% -1%); 
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  clip-path: inset(-1% -1% 47% -1%);
 }
+
 /*whatsapp*/
 .whatsapp-main {
   display: inline-block;
@@ -37456,6 +37706,7 @@ background: #575cb5;
   right: auto;
   margin-left: 20px;
 }
+
 .close_whatsapp {
   position: absolute;
   top: 8px;
@@ -37472,12 +37723,15 @@ background: #575cb5;
   -webkit-box-align: center;
   align-items: center;
 }
+
 .close_whatsapp::before {
   transform: rotate(45deg);
 }
+
 .close_whatsapp::after {
   transform: rotate(-45deg);
 }
+
 .close_whatsapp::before,
 .close_whatsapp::after {
   content: "";
@@ -37488,6 +37742,7 @@ background: #575cb5;
   display: block;
   border-radius: 2px;
 }
+
 .whatsapp-header {
   background: #0a5654;
   color: #ffffff;
@@ -37496,20 +37751,24 @@ background: #575cb5;
   align-items: center;
   padding: 24px 20px;
 }
+
 .whatsapp-reply-time {
   font-size: 13px;
   line-height: 18px;
   margin-top: 4px;
 }
+
 .whatsapp-name {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
 }
+
 .whatsapp-header .header-info {
   margin-left: 16px;
   margin-right: 16px;
 }
+
 .support-avatar {
   width: 52px;
   height: 52px;
@@ -37532,6 +37791,7 @@ background: #575cb5;
   border-radius: 50%;
   border: 2px solid rgb(255, 255, 255);
 }
+
 .avatar-wrapper {
   height: 100%;
   width: 100%;
@@ -37544,6 +37804,7 @@ background: #575cb5;
   -webkit-box-align: center;
   align-items: center;
 }
+
 .avatar-img {
   min-width: 100%;
   height: 100%;
@@ -37553,6 +37814,7 @@ background: #575cb5;
   background-position: center center;
   background-repeat: no-repeat;
 }
+
 .avatar-img::after {
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.1);
@@ -37561,6 +37823,7 @@ background: #575cb5;
   content: "";
   overflow: hidden;
 }
+
 .whatsapp-background {
   padding: 20px 20px 20px 10px;
   background-color: rgb(230, 221, 212);
@@ -37568,6 +37831,7 @@ background: #575cb5;
   overflow: auto;
   max-height: 382px;
 }
+
 .whatsapp-background::before {
   display: block;
   position: absolute;
@@ -37580,10 +37844,12 @@ background: #575cb5;
   opacity: 0.08;
   background-image: url(../img/whatsapp.jpg);
 }
+
 .whatsapp-message-container {
   display: flex;
   z-index: 1;
 }
+
 .loading-animation {
   background-color: rgb(255, 255, 255);
   width: 52.5px;
@@ -37600,6 +37866,7 @@ background: #575cb5;
   z-index: 1;
   box-shadow: rgb(0 0 0 / 13%) 0px 1px 0.5px;
 }
+
 .dot-pulse {
   position: relative;
   left: -9999px;
@@ -37613,7 +37880,8 @@ background: #575cb5;
   animation-delay: .25s;
 }
 
-.dot-pulse::before, .dot-pulse::after {
+.dot-pulse::before,
+.dot-pulse::after {
   content: '';
   display: inline-block;
   position: absolute;
@@ -37639,42 +37907,49 @@ background: #575cb5;
 
 @keyframes dotPulseBefore {
   0% {
-      box-shadow: 9984px 0 0 -5px #cbcbcb;
+    box-shadow: 9984px 0 0 -5px #cbcbcb;
   }
+
   30% {
-      box-shadow: 9984px 0 0 2px #cbcbcb;
+    box-shadow: 9984px 0 0 2px #cbcbcb;
   }
+
   60%,
   100% {
-      box-shadow: 9984px 0 0 -5px #cbcbcb;
+    box-shadow: 9984px 0 0 -5px #cbcbcb;
   }
 }
 
 @keyframes dotPulse {
   0% {
-      box-shadow: 9999px 0 0 -5px #cbcbcb;
+    box-shadow: 9999px 0 0 -5px #cbcbcb;
   }
+
   30% {
-      box-shadow: 9999px 0 0 2px #cbcbcb;
+    box-shadow: 9999px 0 0 2px #cbcbcb;
   }
+
   60%,
   100% {
-      box-shadow: 9999px 0 0 -5px #cbcbcb;
+    box-shadow: 9999px 0 0 -5px #cbcbcb;
   }
 }
 
 @keyframes dotPulseAfter {
   0% {
-      box-shadow: 10014px 0 0 -5px #cbcbcb;
+    box-shadow: 10014px 0 0 -5px #cbcbcb;
   }
+
   30% {
-      box-shadow: 10014px 0 0 2px #cbcbcb;
+    box-shadow: 10014px 0 0 2px #cbcbcb;
   }
+
   60%,
   100% {
-      box-shadow: 10014px 0 0 -5px #cbcbcb;
+    box-shadow: 10014px 0 0 -5px #cbcbcb;
   }
 }
+
 .wloader {
   height: 5px;
   width: 5px;
@@ -37688,6 +37963,7 @@ background: #575cb5;
   animation-timing-function: linear;
   top: 0px;
 }
+
 /* .dots1 {
 background-color: rgb(158, 157, 162);
 animation-name: dotOne;
@@ -37726,15 +38002,18 @@ animation-name: dotThree;
   width: 12px;
   height: 19px;
 }
+
 .chat-body-wrapper {
   width: 100% !important;
 }
+
 .whatsapp-chat-name {
   font-size: 13px;
   font-weight: 700;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .whatsapp-chat-message {
   font-size: 14px;
   line-height: 19px;
@@ -37742,13 +38021,16 @@ animation-name: dotThree;
   margin-top: 4px;
   color: rgb(17, 17, 17);
 }
+
 .whatsapp-chat-message p {
   margin: 0px;
 }
+
 .whatsapp-message-container {
   box-sizing: border-box !important;
   outline: none !important;
 }
+
 .whatsapp-chat-time {
   text-align: right;
   margin-top: 4px;
@@ -37758,6 +38040,7 @@ animation-name: dotThree;
   margin-right: -8px;
   margin-bottom: -4px;
 }
+
 .whatsapp-btn {
   padding: 8px 12px;
   border-radius: 0px;
@@ -37778,6 +38061,7 @@ animation-name: dotThree;
   overflow: hidden;
   appearance: none;
 }
+
 .whatsapp-btn::before {
   content: "";
   position: absolute;
@@ -37792,6 +38076,7 @@ animation-name: dotThree;
   height: 10px;
   bottom: -5px;
 }
+
 .whatsapp-send-icon-small {
   width: 16px;
   height: 16px;
@@ -37799,6 +38084,7 @@ animation-name: dotThree;
   fill: rgb(255, 255, 255);
   z-index: 1;
 }
+
 .chat-button-text {
   margin-left: 8px;
   margin-right: 8px;
@@ -37829,8 +38115,10 @@ animation-name: dotThree;
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 20px;
-  padding: 4px 24px 4px 16px;width: auto;
+  padding: 4px 24px 4px 16px;
+  width: auto;
 }
+
 .whatsapp-popup-button::before,
 .whatsapp-popup-button::after {
   content: "";
@@ -37853,17 +38141,20 @@ animation-name: dotThree;
   right: 4px;
   top: 4px;
 }
+
 @keyframes showhide {
   from {
-      transition: visibility 0s linear 0.7s, opacity 0.7s ease-in-out;
+    transition: visibility 0s linear 0.7s, opacity 0.7s ease-in-out;
   }
 }
+
 @keyframes showchat {
   from {
-      transform: scale(0);
-      opacity: 0;
+    transform: scale(0);
+    opacity: 0;
   }
 }
+
 .hide-whatsapp {
   display: none;
   animation-name: showhide;
@@ -37871,6 +38162,7 @@ animation-name: dotThree;
   transform: scale(1);
   opacity: 1;
 }
+
 .show-whatsapp {
   display: flex;
   animation-name: showchat;
@@ -37879,11 +38171,12 @@ animation-name: dotThree;
   opacity: 1;
 }
 
-.whatsapp-send-icon-big{
+.whatsapp-send-icon-big {
   height: 20px;
   width: 30px;
 }
-.whatsapp-button-main{
+
+.whatsapp-button-main {
   display: flex;
   color: white;
   line-height: 20px;
@@ -37894,13 +38187,15 @@ animation-name: dotThree;
   padding: 6px 4px 6px 4px;
   align-items: center;
 }
+
 /*whatsapp*/
 
-.di{
-  display: flex!important;
+.di {
+  display: flex !important;
 }
-.dinone{
-  display: none!important;
+
+.dinone {
+  display: none !important;
 }
 
 .play-btn {
@@ -37959,32 +38254,34 @@ animation-name: dotThree;
 
 @-webkit-keyframes pulsate1 {
   0% {
-      -webkit-transform: scale(0.6);
-      transform: scale(0.6);
-      opacity: 1;
-      box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
   }
+
   100% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-      opacity: 0;
-      box-shadow: none;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
 
   }
 }
 
 @keyframes pulsate1 {
   0% {
-      -webkit-transform: scale(0.6);
-      transform: scale(0.6);
-      opacity: 1;
-      box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
   }
+
   100% {
-      -webkit-transform: scale(1, 1);
-      transform: scale(1);
-      opacity: 0;
-      box-shadow: none;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
 
   }
 }
@@ -37992,67 +38289,80 @@ animation-name: dotThree;
 
 
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
   .whatsapp-popup-button {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
-  .whatsapp-wrapper{
-      width: 90% !important;
-      margin-bottom: 86px;
+
+  .whatsapp-wrapper {
+    width: 90% !important;
+    margin-bottom: 86px;
   }
+
   .whatsapp-background::before {
-      height: 250px;
+    height: 250px;
   }
 }
 
 @media(max-width: 768px) {
   .odemeiy img {
-      width: 100% !important;
+    width: 100% !important;
   }
 }
-.kvkkz{
+
+.kvkkz {
   margin-bottom: 25px;
 }
-.kvkkz a{
+
+.kvkkz a {
   color: #8E9395;
-  font-family: roboto,sans-serif;
+  font-family: roboto, sans-serif;
   font-weight: 300;
   font-size: 18px;
   text-decoration: none;
 }
-.kvkkz a:hover{
+
+.kvkkz a:hover {
   color: #fff;
-  font-family: roboto,sans-serif;
+  font-family: roboto, sans-serif;
   font-weight: 300;
   font-size: 18px;
   text-decoration: none;
   text-decoration: none;
 }
-.kvkkz a i{
-margin-right: 15px;
+
+.kvkkz a i {
+  margin-right: 15px;
 }
-.tx-center{
+
+.tx-center {
   margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
-.ekip img{
+
+.ekip img {
 
   filter: grayscale(1);
   object-fit: cover;
 }
+
 .panel-heading .accordion-toggle:after {
   /* symbol for "opening" panels */
   font-family: 'FontAwesome';
   content: "\f13a";
-  float: right; /* adjust as needed */
-  color: grey; /* adjust as needed */
+  float: right;
+  /* adjust as needed */
+  color: grey;
+  /* adjust as needed */
 }
+
 .panel-heading .accordion-toggle.collapsed:after {
   /* symbol for "collapsed" panels */
-  content: "\f139"; /* adjust as needed, taken from bootstrap.css */
+  content: "\f139";
+  /* adjust as needed, taken from bootstrap.css */
 }
 
 .popup-cta {
@@ -38429,13 +38739,16 @@ text {
     bottom: -600px
   }
 }
-.add_button_w{
+
+.add_button_w {
   width: 10%;
 }
-.contact_first{
+
+.contact_first {
   margin-right: 39px;
 }
-.loader{
+
+.loader {
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -38443,7 +38756,7 @@ text {
   top: 0;
 }
 
-.blinder-container{
+.blinder-container {
   position: absolute;
   top: 0;
   width: 100%;
@@ -38452,7 +38765,8 @@ text {
 
 
 }
-.img_preloader{
+
+.img_preloader {
   position: absolute;
   margin: auto;
   top: 0;
@@ -38462,13 +38776,15 @@ text {
   width: 245px;
   z-index: 9999;
 }
-.blinder{
+
+.blinder {
   background: #f1f7ff;
   height: 100vh;
   flex: 1;
   transform-origin: top;
 }
-.akad_str{
+
+.akad_str {
   position: absolute;
   left: 42%;
   opacity: 0;
@@ -38476,26 +38792,30 @@ text {
   font-size: 70px;
   top: 36%;
 }
-.akad_str1{
+
+.akad_str1 {
   position: absolute;
   left: 42%;
   opacity: 0;
-color: #000;
+  color: #000;
   font-size: 70px;
   top: 48%;
 }
-.add_wish{
+
+.add_wish {
   position: absolute;
   bottom: -12px;
   z-index: 10;
   right: -43px;
-  background: none!important;
+  background: none !important;
 }
-.discount-time{
+
+.discount-time {
   position: relative;
 
 }
-.tel_call{
+
+.tel_call {
   padding: 8px 12px;
   border-radius: 0px;
   border: none;
@@ -38515,29 +38835,32 @@ color: #000;
   overflow: hidden;
   appearance: none;
 }
-.basvur{
+
+.basvur {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-#myTable  td {
+
+#myTable td {
   padding: 10px;
   text-align: left;
   background: #fff;
 }
 
-#myTable th{
-  color:#fff;
+#myTable th {
+  color: #fff;
   background: #000;
 }
-.what_tel{
+
+.what_tel {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 
-.arrow_form{
+.arrow_form {
   position: absolute;
   right: 31%;
   top: 40%;
@@ -38554,16 +38877,39 @@ color: #000;
   transition: all .5s ease-in-out;
   opacity: 0;
 }
-.progress-bar-add{
+
+.progress-bar-add {
   display: block;
   transition: all .5s ease-in-out;
   opacity: 1;
 }
+
 .progress-bar {
   width: 0;
   height: 6px;
   background-color: var(--color-primary);
 }
-.add-relative{
+
+.add-relative {
   position: relative;
+}
+
+.hero-video {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.bg-video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+
+
 }
