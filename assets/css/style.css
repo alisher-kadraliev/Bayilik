@@ -12723,7 +12723,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 }
 
 .rbt-header .logo a img {
-  max-height: 74px;
+  max-height: 50px;
   object-fit: cover;
 }
 
@@ -37306,7 +37306,7 @@ button:hover::after {
   }
 
   .content {
-    height: 30vh;
+    /* height: 30vh; */
   }
 
   h1 {
@@ -38902,6 +38902,23 @@ text {
   overflow: hidden;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
+  height: 100vh;
+}
+@media (max-width:808px) {
+  .hero-video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: 70vh;
+  }
+  .shape-details{
+    width: 100%;
+    height: auto;
+  }
 }
 
 .bg-video {
@@ -38912,4 +38929,29 @@ text {
   width: 100%;
 
 
+}
+/* on 992px */
+.mobile-show{
+  display: none;
+
+}
+@media (max-width:648px) {
+  .web-version{
+    display: none;
+  }
+  .mobile-show{
+    display: block;
+  }
+
+}
+
+.shape-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.shape-details{
+  width: 567px;
+  height: 330px;
 }

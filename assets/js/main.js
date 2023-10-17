@@ -765,17 +765,22 @@
                     var stickyPlaceHolder = $('.rbt-sticky-placeholder'),
                         progressContainer = $('.progress-container'),
                         headerConainer = $('.rbt-header-wrapper'),
+                        colorChange = $('.colorChanger'),
                         headerConainerH = headerConainer.outerHeight(),
                         topHeaderH = $('.rbt-header-top').outerHeight() || 0,
                         targrtScroll = topHeaderH + 200;
                     if ($(window).scrollTop() > targrtScroll) {
                         headerConainer.addClass('rbt-sticky');
+                        colorChange.removeClass('color-white');
                         progressContainer.addClass('progress-bar-add');
                         stickyPlaceHolder.height(headerConainerH);
+                        $('#myImage').attr('src', 'assets/images/logo/logo.webp');
                     } else {
+                        colorChange.addClass('color-white');
                         headerConainer.removeClass('rbt-sticky');
                         progressContainer.removeClass('progress-bar-add');
                         stickyPlaceHolder.height(0);
+                        $('#myImage').attr('src', 'assets/images/logo/logo.png');
                     }
                 }
             });
@@ -1205,7 +1210,7 @@ $(document).on("click", "#whatsapp-popup", function () {
     setTimeout(function () {
         $('.loading-animation').hide();
         $('.whatsapp-message-wrapper').css("display", "flex").hide().fadeIn("slow");
-    }, 8000)
+    }, 20000)
 });
 
 $(document).on("click", ".close_whatsapp", function () {
@@ -1214,15 +1219,15 @@ $(document).on("click", ".close_whatsapp", function () {
 });
 
 
-$('.whatsapp-wrapper').delay(8000).queue(function () {
+$('.whatsapp-wrapper').delay(20000).queue(function () {
     $(this).addClass("show-whatsapp");
     $(this).removeClass("hide-whatsapp");
 });
-$('.whatsapp-message-wrapper').delay(6000).queue(function () {
+$('.whatsapp-message-wrapper').delay(20000).queue(function () {
     $(this).addClass("di");
     $(this).removeClass("loading-animation");
 });
-$('.loading-animation').delay(6000).queue(function () {
+$('.loading-animation').delay(20000).queue(function () {
     $(this).addClass("dinone");
 });
 
